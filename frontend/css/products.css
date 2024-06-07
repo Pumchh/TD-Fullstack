@@ -1,0 +1,29 @@
+
+#products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+  margin: 1rem;
+}
+
+#id {
+  text-align: left;
+}
+
+#owner {
+  text-align: center;
+}
+
+#bid {
+  text-align: right;
+}
+
+#bouton{
+  text-align: right;
+}
+
+
+.ligne{
+  display: flex;
+}
+
